@@ -1,7 +1,6 @@
 # Game of Life Refactoring C++ Kata
 
 [![CI](https://github.com/Coding-Cuddles/game-of-life-refactoring-cpp-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/game-of-life-refactoring-cpp-kata/actions/workflows/main.yml)
-[![Replit](https://replit.com/badge?caption=Try%20with%20Replit&variant=small)](https://replit.com/new/github/Coding-Cuddles/game-of-life-refactoring-cpp-kata)
 
 ## Overview
 
@@ -49,27 +48,18 @@ Here are the new cell types to implement:
 3. **Lazy Cell**: This cell type requires more neighbors to survive. It stays
    alive only if it has exactly three neighbors.
 
+## Prerequisites
+
+- A compatible C++ compiler that supports at least C++17
+- [CMake](https://cmake.org)
+- [GoogleTest](https://github.com/google/googletest)
+
 ## Usage
-
-You can import this project into [Replit](https://replit.com), and it will
-handle all dependencies automatically.
-
-### Prerequisites
-
-* [CMake 3.19+](https://cmake.org)
-* [Ninja](https://ninja-build.org)
-* [GTest](https://github.com/google/googletest)
 
 ### Build
 
 ```console
 make build
-```
-
-### Run main
-
-```console
-make run
 ```
 
 ### Run tests
